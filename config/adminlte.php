@@ -793,7 +793,6 @@ return [
             'text' => 'Dashboard',
             'url' => 'admin/pages',
             'icon' => 'bi bi-file-earmark',
-            'label' => 4,
             'label_color' => 'success',
         ],
         [
@@ -801,27 +800,27 @@ return [
             'icon' => 'bi bi-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Data siswa',
                     'url' => '#',
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Data siswa',
                     'url' => '#',
                     'submenu' => [
                         [
-                            'text' => 'level_two',
+                            'text' => 'Data siswa',
                             'url' => '#',
                         ],
                         [
-                            'text' => 'level_two',
+                            'text' => 'Data siswa',
                             'url' => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'level_three',
+                                    'text' => 'Data siswa',
                                     'url' => '#',
                                 ],
                                 [
-                                    'text' => 'level_three',
+                                    'text' => 'Data siswa',
                                     'url' => '#',
                                 ],
                             ],
@@ -829,16 +828,12 @@ return [
                     ],
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Data siswa',
                     'url' => '#',
                 ],
             ],
         ],
-        [
-            'text' => 'Data Siswa',
-            'icon_color' => 'info',
-            'url' => '#',
-        ],
+
     ],
 
     /*
